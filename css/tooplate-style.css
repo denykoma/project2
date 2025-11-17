@@ -334,3 +334,44 @@ footer a:hover {
 		padding: 10px 15px;
 	}
 }
+.tm-search-wrapper {
+    max-width: 500px;
+    margin: 20px auto;          /* tengah secara horizontal */
+}
+
+.tm-search-inner {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 8px 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    display: flex;
+    align-items: center;
+}
+
+.tm-search-icon {
+    margin-right: 10px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.tm-search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    background: transparent;
+    color: #333;
+}
+
+/* Placeholder lebih soft */
+.tm-search-input::placeholder {
+    color: #999;
+}
+
+/* Efek saat fokus */
+.tm-search-inner:focus-within {
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.35);
+}
+
+
