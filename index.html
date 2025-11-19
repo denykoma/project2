@@ -30,9 +30,64 @@ http://www.tooplate.com/view/2092-shelf
     <body>
         
         <div class="container">
-            <header class="tm-site-header">
-                <h1 class="tm-site-name">NurulMH</h1>
-                <p class="tm-site-description">FisikaUNM</p>
+    <!-- HEADER -->
+    <header class="tm-site-header" style="position: relative;">
+        
+        <!-- WRAPPER LOGO + TEKS DI ATAS GAMBAR HEADER -->
+                <!-- WRAPPER LOGO + TEKS DALAM KOTAK PANJANG BIRU -->
+<div style="
+    position:absolute;
+    top:15px;
+    left:15px;
+    z-index:10;
+    background:linear-gradient(135deg, #0d6efd, #36c3ff);
+
+    padding:3px 3px;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    gap:0px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.25);                /* shadow halus */
+    border:1px solid rgba(255,255,255,0.35);              /* garis putih tipis */
+">
+    <!-- LOGO -->
+    <img src="img/logo-nmh.png" 
+        alt="Logo NMH" 
+        style="
+            height:50px;
+            display:block;
+        ">
+
+    <!-- TEKS DI SEBELAH KANAN LOGO -->
+    <div style="
+        text-shadow:none;
+        line-height:1;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    ">
+        <p style="
+            margin:0;
+            font-size:14px;
+            font-weight:700;
+            line-height:1.1;
+            color:white;
+        ">
+            Nurul<br>
+            Muthmainnah<br>
+            Herman
+        </p>
+    </div>
+</div>
+
+
+
+
+
+
+        <!-- (opsional) ruang kosong di bawah untuk menghindari ketindih logo -->
+        <div style="padding-top:120px;"></div>
+
                 
                 <nav class="navbar navbar-expand-md tm-main-nav-container">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav" aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,8 +99,8 @@ http://www.tooplate.com/view/2092-shelf
                             <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Materi 1</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Materi 2</a></li>
-                            <li class="nav-item"><a class="nav-link" href="team.html">Materi 3</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Materi 4</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Materi 3</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Materi 4</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -59,6 +114,7 @@ http://www.tooplate.com/view/2092-shelf
                     </header>
                     
                     <p>Fisika merupakan ilmu yang berusaha menjelaskan berbagai gejala alam melalui pengamatan, percobaan, dan rumusan hukum-hukum yang berlaku.</p>
+                    
                     <div class="tm-search-wrapper tm-margin-b">
     <div class="tm-search-inner">
         <i class="fa fa-search tm-search-icon"></i>
@@ -69,6 +125,7 @@ http://www.tooplate.com/view/2092-shelf
             placeholder="Cari materi fisika (contoh: gerak, gaya, besaran)...">
     </div>
 </div>
+
 
                     <div class="tm-gallery">
                         <div class="row">
@@ -137,35 +194,48 @@ http://www.tooplate.com/view/2092-shelf
                                     <p class="tm-figcaption">Coming Soon</p>
                                 </a>
                             </figure> 
+                            <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                                <a href="#">
+                                    <div class="tm-gallery-item-overlay">
+                                        <img src="img/image-09.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    </div>
+                                    <p class="tm-figcaption">Coming Soon</p>
+                                </a>
+                            </figure>
+                            <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                                <a href="#">
+                                    <div class="tm-gallery-item-overlay">
+                                        <img src="img/image-10.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    </div>
+                                    <p class="tm-figcaption">Coming Soon</p>
+                                </a>
+                            </figure>
+                            <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                                <a href="#">
+                                    <div class="tm-gallery-item-overlay">
+                                        <img src="img/image-11.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    </div>
+                                    <p class="tm-figcaption">Coming Soon</p>
+                                </a>
+                            </figure>
+                            <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+                                <a href="#">
+                                    <div class="tm-gallery-item-overlay">
+                                        <img src="img/image-12.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    </div>
+                                    <p class="tm-figcaption">Coming Soon</p>
+                                </a>
+                            </figure> 
                         </div>   
                     </div>
                     
                     <nav class="tm-gallery-nav">
                         <ul class="nav justify-content-center">
                             <li class="nav-item"><a class="nav-link active" href="#">1</a></li>
-                            <li class="nav-item"><a class="nav-link" href="">2</a></li>
-                            <li class="nav-item"><a class="nav-link" href="">3</a></li>
-                            <li class="nav-item"><a class="nav-link" href="">4</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="team.html">2</a></li>
+                                              
                         </ul>
-                    </nav>
-                </section>
-
-                <section class="media tm-highlight tm-highlight-w-icon">
-
-                    <div class="tm-highlight-icon">
-                        <i class="fa tm-fa-6x fa-meetup"></i>    
-                    </div>                    
-
-                    <div class="media-body">
-                        <header>
-                            <h2>Mau tau lebih lanjut tentang Fisika?</h2>
-                        </header>
-                        <p class="tm-margin-b">Fisika = ilmu yang mempelajari bagaimana alam bekerja.
-</p> 
-                        <a href="https://wa.me/6282193504639?" class="tm-white-bordered-btn">Chat Dosen</a>
-                    </div>                    
-                </section>
-            </div>
+                
 
             <footer>
                 Copyright &copy; <span class="tm-current-year">2018</span> FISIKA UNIVERSITAS NEGERI MAKASSAR
@@ -178,7 +248,7 @@ http://www.tooplate.com/view/2092-shelf
         <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
         <script src="js/popper.min.js"></script>                <!-- Popper (https://popper.js.org/) -->
         <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
-         <script>     
+        <script>     
     $(document).ready(function(){
         
         // Update the current year in copyright
@@ -197,13 +267,12 @@ http://www.tooplate.com/view/2092-shelf
         });
 
     });
-</script>           
+</script>
+             
 
 </body>
 
 </html>
-
-
 
 
 
